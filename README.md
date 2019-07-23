@@ -71,15 +71,11 @@ Translations are periodically pulled from Transifex and merged into the git repo
 **Important**: We do not accept translation changes as GitHub pull requests because the next
 pull from Transifex would automatically overwrite them again.
 
-Donations
----------
+### Building
 
-Donations for supporting developers are welcome: 
+Build Zcash along with most dependencies from source by running:
 
-- LTC: LgSbGGqru5LVHE3cWcgwZDLjr3WorGahr3
-- BTC: 1N2rQimKbeUQA8N2LU5vGopYQJmZsBM2d6
-- ZEC: t1T8hAYzLNwe2rLQpFMjx9z9FHFd6oQ86P9
-- BTG: GNkwW2uS4ed7cofz94J8PrTXJnZgmk5nr2
-- BTCZ: t1cmr2QUMCEBRhUVrZHsgC6DnrdzC2FyHz7
+```
+./zcutil/build.sh -j$(nproc)
+```
 
-Thanks
